@@ -1,0 +1,27 @@
+body{
+  background-color: wheat;
+}
+.title{
+  display: inline-block;
+  color: cornflowerblue;
+  background-color: black;
+  border-radius: 5%;
+  padding: 10px 12px;
+  margin-left: 42%;
+}
+.subtitle{
+  text-align: center;
+  background-color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#caja{
+  margin: 0 auto;
+  width: 80vw;
+  height: 50px;
+  padding: 7px;
+  background-color: cadetblue;
+}
+#caja p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
