@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(193, 190, 190);
+}
+.contenedor{
+  width: 80vw;
+  margin: auto;
+}
+h1{
+  text-align: center;
+}
+h2{
+  background-color: gray;
+  color: whitesmoke;
+}
+img{
+  width: 150px;
+  height: auto;
+}
+.text-red-ital{
+  color: red;
+  font-style: italic;
+}
+.text-white{
+  background-color: white;
+  font-weight: 700;
+}
+.parrafo{
+  display: flex;
+}
