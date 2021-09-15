@@ -1,0 +1,20 @@
+body{
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.tipo1{
+  font-family: 'Roboto', sans-serif;
+}
+.tipo2{
+  font-family: 'Architects Daughter', cursive;
+}
+.tipo3{
+  font-family: 'Poiret One', cursive;
+}
+.tipo4{
+  font-family: 'Space Mono', monospace;
+}
+.tipo5{
+  font-family: 'Archivo Black', sans-serif;
+}
