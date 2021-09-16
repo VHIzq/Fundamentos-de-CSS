@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
-  margin: 0 ;
+  margin: 0;
+  box-sizing: border-box; /* newly added */
 }
 body{
   height: 100%;
@@ -89,6 +90,7 @@ nav ul li a:hover{
 .square{
   width: 349px;
   height: 353px;
+  color: whitesmoke;
   background-color: orangered;
 }
 .img1{
@@ -100,6 +102,66 @@ nav ul li a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+}
+.square-info > p{
+  margin-top: 7px;
+  font-size: 24px;
+}
+/* birria presenetation */
+.birria-presentation{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.birria-presentation > img{
+  width: 530px;
+  height: 492px;
+  border-radius: 2%;
+}
+.birria-text{
+  width: 45%;
+}
+.birria-text  > h2{
+  font-size: 72px;
+}
+.birria-text > p{
+  margin-top: 25px;
+  width: 70%;
+  font-size: 30px;
+}
+.birria-banner{
+  width: 1029px;
+  height: 195px;
+  margin: auto;
+  margin-top: 70px;
+  text-align: left;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 1.2em;
+  border: 8px solid #EB5A2C;
+}
+/* gallery section */
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 134px;
+}
+.gallery-grid{
+  display: flex;
+  flex-direction: column;
+}
+.gallery-grid .left-top{
+  width: 423px;
+  height: 311px;
+  margin-bottom: 18px;
+}
+.gallery-grid .left-down{
+  width: 423px;
+  height: 518px;
 }
 
 
