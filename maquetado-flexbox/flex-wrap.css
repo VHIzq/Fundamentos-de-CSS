@@ -1,0 +1,18 @@
+body{
+  background-color: orangered;
+}
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cuadro{
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 700;
+  color: whitesmoke;
+  background-color: cornflowerblue;
+}
