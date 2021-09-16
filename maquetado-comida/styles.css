@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0 ;
+}
+body{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+/* menu */
+.menu{
+  height: 70px;
+  background-color: black;
+}
+nav ul{
+  display: flex;
+  justify-content: right;
+  list-style: none;
+}
+nav ul li{
+  margin-top: 15px;
+} 
+nav ul li a{
+  margin-right: 50px;
+  font-size: 24px;
+  font-weight: 900;
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav ul li a:hover{
+  cursor: pointer;
+  color: orange;
+}
+/* hero */
+.wall-image{
+  height: 80vh;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/maquetado-comida/imgs/taco1.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wall-text{
+  position: absolute;
+  top: 10%;
+  left: 12%;
+  text-align: left;
+  color: whitesmoke;
+}
+.brand{
+  font-size: 96px;
+}
+.motto{
+  font-size: 24px;
+}
+.text-motto{
+  width: 45vw;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.cta-hero{
+  margin-top: 25px;
+}
+.cta{
+  width: 215px;
+  height: 73px;
+  font-size: 24px;
+  margin-left: 40px;
+}
+.cta-left{
+  margin-right: 15px;
+  background-color: orangered;
+  border: none;
+}
+.cta-right{
+  color: whitesmoke;
+  background-color: transparent;
+  border: 3px solid whitesmoke;
+}
+/* features boxes */
+
+
+
+
+
