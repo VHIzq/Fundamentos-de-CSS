@@ -27,3 +27,13 @@ img{
 .parrafo{
   display: flex;
 }
+
+
+
+/* regresa el flujo normal de la página después de usar algun 
+elemento con float */
+
+/* .clear-fix{
+  clear: both;
+  float: none;
+} */
