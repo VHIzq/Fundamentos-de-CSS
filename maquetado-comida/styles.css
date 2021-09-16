@@ -38,6 +38,7 @@ nav ul li a:hover{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: -10;
 }
 .wall-text{
   position: absolute;
@@ -63,8 +64,8 @@ nav ul li a:hover{
 .cta{
   width: 215px;
   height: 73px;
-  font-size: 24px;
   margin-left: 40px;
+  font-size: 24px;
 }
 .cta-left{
   margin-right: 15px;
@@ -77,6 +78,29 @@ nav ul li a:hover{
   border: 3px solid whitesmoke;
 }
 /* features boxes */
+.container-outflow{
+  margin-top: -150px;
+}
+.squares-container{
+  display: flex;
+  justify-content: space-around;
+  z-index: 100;
+}
+.square{
+  width: 349px;
+  height: 353px;
+  background-color: orangered;
+}
+.img1{
+  width: 150px;
+  height: 144px;
+  background-color: transparent;
+}
+.square-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
