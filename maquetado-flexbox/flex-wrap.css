@@ -1,6 +1,10 @@
 body{
   background-color: orangered;
 }
+.centrado{
+  width: 85%;
+  margin: auto;
+}
 .contenedor{
   display: flex;
   flex-wrap: wrap;
