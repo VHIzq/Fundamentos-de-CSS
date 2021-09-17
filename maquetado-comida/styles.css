@@ -29,7 +29,7 @@ nav ul li a{
 }
 nav ul li a:hover{
   cursor: pointer;
-  color: orange;
+  color: orangered;
 }
 /* hero */
 .wall-image{
@@ -163,8 +163,55 @@ nav ul li a:hover{
   width: 423px;
   height: 518px;
 }
-
-
+/* delivery form */
+section.delivery{
+  width: 95%;
+  margin: auto;
+  margin-top: 36px;
+  height: 705px;
+  background: linear-gradient(180deg, #EB5A2C 0%, rgba(196, 196, 196, 0) 100%);
+}
+.container-form{
+  display: flex;
+  justify-content: space-around;
+  /* transform: rotate(-89.93deg); */
+}
+.container-form > h2{
+  width: 40%;
+  margin-top: 72px;
+  margin-left: 101px;
+  font-size: 96px;
+  color: whitesmoke;
+}
+form{
+  margin-top: 65px;
+  padding: 50px;
+  font-size: 25px;
+  background: rgba(229, 229, 229, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+input{
+  width: 510px;
+  height: 59px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 20px;
+}
+#name_user{
+  background-color: orangered;
+}
+.btns-form > button{
+  width: 230px;
+  height: 48px;
+  border-radius: 20px;
+  border: none;
+  background-color: orangered;
+}
+.btns-form > button:first-child{
+  margin-right: 37px;
+}
 
 
 
