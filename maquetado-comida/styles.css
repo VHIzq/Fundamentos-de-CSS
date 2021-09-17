@@ -35,7 +35,8 @@ nav ul li a:hover{
 .wall-image{
   height: 80vh;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/taco1.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-image: url(imgs/taco1.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
